@@ -1,0 +1,21 @@
+{
+  "name": "tp-07-salas-mongodb",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write src scripts",
+    "check": "node --check src/index.js",
+    "lint": "eslint src scripts"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^9.11.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  }
+}
